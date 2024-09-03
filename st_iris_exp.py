@@ -6,7 +6,7 @@ from sklearn.datasets import load_iris
 #load dataset
 iris = load_iris()
 
-model_directory = r"D:\1 Projects\models"
+model_directory = r"model"
 
 # Gunakan os.path.join() untuk menggabungkan direktori dan file model pickle
 model_path = os.path.join(model_directory, 'knn_dt_iris_model.pkl')
